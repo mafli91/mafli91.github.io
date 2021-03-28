@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ /* width */
+ ::-webkit-scrollbar {
+	width: 1em;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: rgb(238, 177, 233);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: rgb(218, 27, 84);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgb(218, 27, 84);
+  } 
+body{
+	background-color: rgb(68, 49, 67);
+	padding-left: 6%;
+    max-width: 94%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.wrapper {
+	background-image: url("CC0.png");
+    background-size: cover, contain;
+    background-repeat: no-repeat;
+    height: 94 vh;
+	max-width: 94%;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+a{
+	text-decoration: none ;
+    color: rgb(218, 27, 84);
+    font-weight: bold;
+}
+
+
+nav{
+	min-height: 20vh;
+	max-height: 34vh;
+	overflow: hidden;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+    background-color: rgb(238, 177, 233);
+}
+
+.candy {
+    transform: translateX(20vh);
+    transform: translateY(-90%);
+	font-size: 5vh;
+	text-align: center;
+	line-height: 0.85em;
+	text-size-adjust: auto;
+	text-shadow: 4px 2px rgb(107, 204, 96);
+	letter-spacing: 0.4em;
+	word-spacing: 0.8em;
+	font-weight: bolder;
+	position: center;
+	color: rgb(241, 210, 30);
+	
+}
+.logo {
+    transform: translateX(35%);
+	position: right;
+	border-image: none;
+	max-height: 20vh;
+	object-fit: fill;
+}
+
+.who {
+	color: rgb(65, 21, 94);
+	text-align: left;
+	overflow-wrap: break-word;
+    padding-top: 1%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.who p{
+	text-align: center;
+	font-size: 1em;
+    font-weight: bold;
+	color: rgb(36, 34, 34);
+}
+.who b{
+    letter-spacing: 0.4em;
+    color: black;
+}
